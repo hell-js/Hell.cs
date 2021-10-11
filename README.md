@@ -17,4 +17,5 @@ r
 ## Install Hell.cs 🚀
 [![](https://img.shields.io/nuget/dt/Hell.cs?style=for-the-badge) ![](https://img.shields.io/nuget/v/Hell.cs?style=for-the-badge)](https://www.nuget.org/packages/Hell.cs)
 
-`dotnet package add Hell.cs` 🚀
+NuGet: `dotnet add package Hell.cs` 🚀
+.NET Interactive: `#r "nuget: Hell.cs, 1.0.0";;`

@@ -11,7 +11,7 @@ namespace HellCs.Test
 
 		[Test]
 		public void CompileTest()
-			=> Assert.AreEqual("test of Hell.c#", Hell.Compile(hell => hell.t.e.s.t[" "].o.f[" "].H.e.l.l["."].c["#"]));
+			=> Assert.AreEqual("Test of Hell.c#", Hell.Compile(hell => hell.T.e.s.t[" "].o.f[" "].H.e.l.l["."].c["#"]));
 
 		[Test]
 		public void MultiCharCompileFailTest()

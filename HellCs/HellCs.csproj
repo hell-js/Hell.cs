@@ -1,8 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>8</LangVersion>
         <Nullable>enable</Nullable>
+        
+        <PackageId>Hell.cs</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>The Hell.js Team</Authors>
+        <Description>Bringing the best developer experience in the universe 🚀 to the power of 🔥 the C# language 🔥</Description>
+        <PackageLicenseExpression>CC0-1.0</PackageLicenseExpression>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <RepositoryUrl>https://github.com/hell-js/Hell.cs</RepositoryUrl>
     </PropertyGroup>
 
 </Project>

@@ -3,7 +3,9 @@
 
 ## Example
 ```cs
-let compiled = Hell.Compile(hell => // 🚀
+using HellCs;
+
+var compiled = Hell.Compile(hell => // 🚀
     hell.C.o.n.
 s.o.l.e["."].W.r.i.t.e.L.i.n.e["("]["'"].H.e.l.
 l.o[" "].w.o.

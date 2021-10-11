@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Dynamic;
+using HellCs.Exceptions;
 
 namespace HellCs
 {
@@ -20,14 +21,14 @@ namespace HellCs
 		
 		private Hell GetMember(string member)
 		{
-			if (member.Length > 1)
-			{
-				throw new InvalidOperationException("Hell.cs disallows using multiple characters at once for performance reasons");
-			}
+			if (string.IsNullOrEmpty(member)) throw new YouAreAnIdiotException();
 			
+			if (member.Length != 1) throw new BadPerformanceException();
+
 			return new Hell(_dataSoFar + member);
 		}
 		
+		// ReSharper disable once UnusedMember.Global
 		public Hell this[string index] => GetMember(index);
 	}
 }
